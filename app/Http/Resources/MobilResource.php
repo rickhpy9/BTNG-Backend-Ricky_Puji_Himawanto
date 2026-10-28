@@ -1,0 +1,24 @@
+<?php
+
+namespace App\Http\Resources;
+
+use Illuminate\Http\Request;
+use Illuminate\Http\Resources\Json\JsonResource;
+
+class MobilResource extends JsonResource
+{
+        public function toArray(Request $request): array
+    {
+        return [
+            'id' => $this->id,
+            'nama' => $this->nama,
+            'brand' => $this->brand,
+            'harga' => $this->harga,
+            'tahun' => $this->tahun,
+            'transmisi' => $this->transmisi,
+            'bahan_bakar' => $this->bahan_bakar,
+            'status' => $this->status,
+            'foto' => $this->foto,
+        ];
+    }
+}
