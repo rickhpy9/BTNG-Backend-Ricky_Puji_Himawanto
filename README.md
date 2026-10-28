@@ -3,8 +3,8 @@
 RESTful API manajemen data mobil menggunakan Laravel 12 dan MySQL.
 
 ## Live Deployment
-- URL API: (isi nanti setelah deploy)/api/mobil
-- Dokumentasi Scramble: (isi nanti setelah deploy)/docs/api
+- URL API: https://btng-backend-ricky-puji-himawanto.cleverapps.io/api/mobil
+- Dokumentasi Scramble: https://btng-backend-ricky-puji-himawanto.cleverapps.io/docs/api
 
 ## Teknologi
 Laravel 12, PHP 8.2+, MySQL, Scramble (dokumentasi API)
